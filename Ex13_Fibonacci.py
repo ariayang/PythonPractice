@@ -16,3 +16,11 @@ def fib (number):
 user = int(input('How many fibonacci number of numbers do you want?'))
 print (fib(user))
 
+
+def fib2 (n):
+    fib2(0) = 0
+    fib2(1) = 1
+    fib2(n) = fib2(n-1) + fib2(n-2)
+    return fib2(n)
+
+print(fib2(user))
